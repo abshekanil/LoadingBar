@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+.container{
+    width: 400px;
+    position: relative;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-family: cursive;
+    font-size: 40px;
+}
+.loadingBack{
+    position: absolute;
+    background-color: lightgray;
+    border-radius: 5px;
+    height: 8px;
+    width: 100%;
+    border: none;
+}
+.loadingFront{
+    position: absolute;
+    background-color: orangered;
+    border-radius: 5px;
+    height: 8px;
+    width: 0%;
+    border: none;
+}
